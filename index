@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: transparent;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #E8E0D0;
+    overflow: hidden;
+  }
+
+  .wrap { max-width: 680px; margin: 0 auto; padding: 40px 24px 0; }
+
+  .meta {
+    font-size: 12px;
+    color: #8A7A6A;
+    letter-spacing: 0.06em;
+    margin-bottom: 36px;
+  }
+
+  .divider {
+    width: 64px;
+    height: 2px;
+    background: #C49A3C;
+    margin: 0 0 40px;
+  }
+
+  p { margin-bottom: 1.5em; color: #D8D0C0; }
+
+  h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #F5F0E8;
+    margin: 2.8em 0 0.7em;
+    line-height: 1.25;
+  }
+
+  .pullquote {
+    border-left: 3px solid #E8906A;
+    padding: 10px 0 10px 24px;
+    margin: 2.2em 0;
+  }
+  .pullquote p {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #E8906A;
+    line-height: 1.5;
+    margin: 0 0 8px;
+  }
+  .pullquote cite {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #8A7A6A;
+    font-style: normal;
+  }
+
+  .song-box {
+    background: rgba(255,255,255,0.06);
+    border-top: 2px solid #E07A5F;
+    border-bottom: 2px solid #E07A5F;
+    padding: 28px 32px;
+    margin: 2.2em 0;
+  }
+  .song-box .label {
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #E07A5F;
+    margin-bottom: 14px;
+    display: block;
+  }
+  .song-box .song-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #F5F0E8;
+    margin-bottom: 18px;
+    letter-spacing: 0.02em;
+  }
+  .song-box .lyric {
+    font-size: 15px;
+    font-style: italic;
+    color: #D8D0C0;
+    line-height: 1.9;
+    margin-bottom: 1em;
+  }
+  .song-box .lyric:last-child { margin-bottom: 0; }
+  .song-box .refrain {
+    color: #E8906A;
+    font-weight: 600;
+  }
+
+  .highlight {
+    border-left: 3px solid #C49A3C;
+    padding: 14px 18px;
+    margin: 2em 0;
+    font-style: italic;
+    color: #C8B898;
+    font-size: 16px;
+    background: rgba(196,154,60,0.10);
+  }
+
+  .dots {
+    text-align: center;
+    color: #C49A3C;
+    letter-spacing: 12px;
+    font-size: 18px;
+    margin: 3em 0;
+  }
+
+  .questions {
+    list-style: none;
+    margin: 1.2em 0 1.8em;
+    padding: 0;
+  }
+  .questions li {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #C8B898;
+    padding: 10px 0 10px 24px;
+    border-bottom: 1px solid #3A3028;
+    position: relative;
+    font-style: italic;
+  }
+  .questions li:first-child { border-top: 1px solid #3A3028; }
+  .questions li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #E8906A;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="meta">By Rose Weaver</div>
+
+  <div class="divider"></div>
+
+  <p>
+    Picture an hourglass on a table before you. The sand is low, the stream is thin — and you hear that whisper: <em>"You're almost out of time."</em>
+  </p>
+
+  <p>
+    But then something shifts. You reach out, turn it over, and suddenly… there's motion again. Possibility again. You realize aging is not running out of time — it's rewriting how you <em>use</em> it.
+  </p>
+
+  <h2>Changing the Story of Aging</h2>
+
+  <p>
+    Most of us inherited a tired script about getting older: aging as loss, menopause as silence, elders fading from view. But research shows that our mindset about aging directly impacts our energy, health, and even longevity. Those who see later life as growth — not decline — actually live longer and thrive.
+  </p>
+
+  <p>
+    One of my songs in my show, <em>Menopause Mama</em>, captures that turning point. The song is called <em>This Woman Is Not Done</em> (©2001). It embodies what positive aging means to me: that we're not fading, we're evolving.
+  </p>
+
+  <div class="song-box">
+    <span class="label">From <em>Menopause Mama</em></span>
+    <p class="song-title">This Woman's Not Done</p>
+
+    <p class="lyric">
+      Everything in life is a test<br>
+      That's why women are here<br>
+      To leave lessons from our youth<br>
+      To grow older without fear
+    </p>
+    <p class="lyric refrain">This woman's not done</p>
+
+    <p class="lyric">
+      Salty tears stained my pillow<br>
+      I wondered how I would cope<br>
+      Then something changed late one night<br>
+      With the morning came a new scope
+    </p>
+    <p class="lyric refrain">Said, this woman's not done</p>
+
+    <p class="lyric">
+      First, we were young, then too old<br>
+      Kicked to the curb, robbed of our souls<br>
+      Reached for the ceiling, hit the glass<br>
+      Was either 'bout gender, color, or class
+    </p>
+
+    <p class="lyric">
+      Some treated us good, others handled us wrong<br>
+      At times we were weak, but now we're strong<br>
+      We're singing our new song, we're right on the track<br>
+      And this train still runs
+    </p>
+
+    <p class="lyric refrain">
+      This train still runs<br>
+      And we can't turn it back<br>
+      We can't go back
+    </p>
+
+    <p class="lyric">
+      Look into my eyes right now<br>
+      Can you see we're still here<br>
+      There's so much more of me to live<br>
+      And I love we, I love me for all of my years
+    </p>
+    <p class="lyric refrain">And this woman's not done</p>
+  </div>
+
+  <h2>Owning Our Whole Story</h2>
+
+  <p>
+    We don't arrive at this third act untouched. Many of us have faced double standards — told we were too much when young, and too old now. Yet here we are, wiser and still radiant. Turning over the hourglass means honoring every grain of sand that's fallen and still choosing joy in what remains.
+  </p>
+
+  <div class="highlight">
+    Turning over the hourglass means honoring every grain that's fallen — and still choosing joy in what remains.
+  </div>
+
+  <h2>Your Invitation</h2>
+
+  <p>
+    Each of us has an hourglass. Maybe yours is aging parents, a changing body, a shifting dream. Ask yourself:
+  </p>
+
+  <ul class="questions">
+    <li>What story am I telling about getting older — collapse or unfolding?</li>
+    <li>What one act of rest or joy can I claim this week?</li>
+    <li>How might I treat each day as a promise, not a countdown?</li>
+  </ul>
+
+  <div class="dots">· · ·</div>
+
+  <h2>Closing</h2>
+
+  <p>
+    As you leave tonight, imagine holding your own hourglass. See the sand that's fallen — your laughter, your lessons — and notice what still flows. You can't add more sand, but you can decide how you'll spend it.
+  </p>
+
+  <p>
+    My song ends with the words:
+  </p>
+
+  <div class="pullquote">
+    <p>"Look into my eyes right now… this woman's not done."</p>
+    <cite>— This Woman's Not Done</cite>
+  </div>
+
+  <p>
+    Neither are you.
+  </p>
+
+  <p>
+    So flip your hourglass. Rest deeply. Move gently. Choose joy. And live your third act wide awake, still declaring — <em>what an amazing ride it's been.</em>
+  </p>
+
+</div>
+</body>
+</html>
